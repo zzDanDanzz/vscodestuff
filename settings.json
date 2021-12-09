@@ -1,0 +1,36 @@
+{
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 2,
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.useSystemClipboard": true,
+    "editor.cursorBlinking": "solid",
+    "editor.lineNumbers": "relative",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["<C-e>"],
+            "after": ["<esc>", "A"]
+        }
+   ],
+   "vim.handleKeys": {
+       "<C-c>": false,
+       "<C-x>": false,
+       "<C-v>": false,
+       "<C-a>": false,
+       "<C-k>": false
+},
+"debug.javascript.autoAttachFilter": "disabled",
+"editor.suggest.snippetsPreventQuickSuggestions": false,
+"editor.fontSize": 18,
+"zenMode.hideLineNumbers": false,
+"editor.wordWrap": "on",
+"workbench.editor.untitled.hint": "hidden",
+"liveServer.settings.donotShowInfoMsg": true,
+"workbench.colorTheme": "Default High Contrast",
+"[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+},
+"emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  }
+
+}
